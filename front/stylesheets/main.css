@@ -588,3 +588,167 @@ flex: none;
 order: 2;
 flex-grow: 0; 
 }
+
+#our-location{
+  width: 124px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.012em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#visit{
+  width: 213px;
+height: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height, or 114% */
+
+letter-spacing: 0.032em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#indo{
+  width: 186px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+
+letter-spacing: 0.024em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#tangerang{
+  width: 350px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+letter-spacing: 0.021em;
+
+color: rgba(255, 255, 255, 0.8);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#singapore{
+  width: 155px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+
+letter-spacing: 0.024em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#detail{
+  width: 350px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+letter-spacing: 0.021em;
+
+color: rgba(255, 255, 255, 0.8);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.iconss{
+ margin-top: 16rem;
+ text-decoration: none;
+}
+
+#contact-us{
+  width: 109px;
+height: 24px;
+margin-bottom: 2rem;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.012em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
