@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,32 +8,28 @@
     <title>Project</title>
     <link rel="stylesheet" href="front/libraries/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="front/stylesheets/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
   </head>
+
   <body>
-    <div class="container-fluid" id="cons">
+    <div class="container-fluid cons">
       <div class="row">
         <div class="col-6">
-          <img
-            class="erb-image-wrapper"
-            src="front/images/1.png"
-            width="600"
-            height="834"
-          />
+          <img class="erb-image-wrapper" src="front/images/1.png" width="600" height="834" />
         </div>
         <div class="container col-6">
           <nav class="navbar navbar-expand-lg">
             <div class="container">
-              <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon">
+                </span>
+              </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a
-                      class="nav-link active"
-                      id="home"
-                      aria-current="page"
-                      href="#"
-                      >Home</a
-                    >
+                    <a class="nav-link active" id="home" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" id="about" href="#">About</a>
@@ -82,10 +79,7 @@
     <div class="container-fluid" id="layer">
       <div class="row">
         <div class="col-6">
-          <img
-            class="kucing"
-            src="front/images/kucing.jpg"
-          />
+          <img class="kucing" src="front/images/kucing.jpg" />
         </div>
         <div class="container col-6">
           <div class="content">
@@ -104,54 +98,236 @@
       </div>
     </div>
 
-    <!-- <div class="container" id="cons">
-      <div class="row">
-        <div class="col-6">
-          <img
-            class="erb-image-wrapper kucing"
-            src="front/images/kucing.jpg"
-            width="600"
-            height="581"
-          />
-        </div>
-        <div class="container col-5">
-          <div class="content">
-            <h1 class="cpcm">CPCM</h1>
-            <h3 class="cow">Cow Play Cow Moo</h3>
-            <p class="graphlayer">
-              100% Singapore Grown Arcade Brand. We started the physical
-              ticketing trend in Singapore, creating a place of Fun, Family,
-              Carnival that is affordable for the average Singaporean. No.1
-              Disney & Sanrio Licensee in Singapore. We manufacture, market
-              exclusive merchandise and create experiences for the Singapore
-              market
-            </p>
+    <div class="container-fluid layer3">
+      <div class="container layer3">
+        <h1 class="col-6">this is text</h1>
+        <h4 class="top-card">this is text</h4>
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-wrapper container-sm d-flex  justify-content-around">
+                <a class="slider-card" href="#">
+                  <div class="card zoom" style="width: 24rem;">
+                    <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title1</h5>
+                      <h6 class="card-pharagraph">insert pharagraph</h6>
+                </a>
+
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div> -->
+        <div class="carousel-item">
+          <div class="card-wrapper container-sm d-flex   justify-content-around">
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
 
-    <!-- <div class="container row">
-        <div class="col-6">
-          <img class="erb-image-wrapper" src="front/images/kucing.jpg"width="600" height="581" />
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-6">
-          <div>
-          <h1 class="text-center" id="cpcm">CPCM</h1>
+        <div class="carousel-item">
+          <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+              </div>
+            </div>
+          </div>
         </div>
-          <h3 class="text-center" id="cow">Cow Play Cow Moo</h3>
-          <p class="paragraph">
-            We are the master franchise holder of Cow Play Cow Moo Singapore,
-            this brand is a growing arcade game scene iin Singapore.<br/>
-            Cow Play Cow Moo Indonesia present a place for enteraiment and
-            family carnicals at affordable prices for the people of Indonesia
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon rounded-circle"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon rounded-circle"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="container-fluid row cons">
+      <div class="container bordered col-4 d-block mt-4">
+        <h2 class="align-self-start" id="top">Attractive Promotion and Offers?</h2>
+        <h6 class="align-self-start" id="bot">Enter your email address so we can send attractive promotions and offers
+          from us.</h6>
         <div>
+          <input type="email" class="form-control" placeholder="Input Email here!">
         </div>
-        </p>
-      </div> -->
+        <div class="text-center">
+          <a href="#" class="btn btn-success d-flex mt-4">Submit</a>
+        </div>
+      </div>
+      <img class="col-4 mt-4 mb-4 layer5" src="front/images/kucing.jpg" width="336" height="336">
+    </div>
+    </div>
+
+    <div class="container-fluid layer3">
+      <div class="container layer3">
+        <h1 class="col-6">this is text</h1>
+        <h4 class="top-card">this is text</h4>
+        <div id="c2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-wrapper container-sm d-flex  justify-content-around">
+                <a class="slider-card" href="#">
+                  <div class="card zoom" style="width: 24rem;">
+                    <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title1</h5>
+                      <h6 class="card-pharagraph">insert pharagraph</h6>
+                </a>
+
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-wrapper container-sm d-flex   justify-content-around">
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+              </div>
+            </div>
+            <div class="card zoom" style="width: 24rem;">
+              <img src="front/images/kucing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-pharagraph">insert pharagraph</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#c2"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon rounded-circle"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#c2"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon rounded-circle"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
 
     <script src="front/libraries/jquery-3.6.4.min.js"></script>
     <script src="front/libraries/bootstrap/js/bootstrap.js"></script>
   </body>
+
 </html>
