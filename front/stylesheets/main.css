@@ -368,7 +368,8 @@
   background-color: #F8F8F8;
   width: 100%;
   height: 100%;
-  padding: 0;
+  padding-top: 3rem;
+  margin: 0;
 }
 
 .graphlayer {
@@ -480,6 +481,7 @@ flex-grow: 0;
   max-height: 100%;
   width: 1280px;
 height: 680px;
+margin-top: 4rem;
 
 background: #F8F8F8;
 
@@ -507,10 +509,16 @@ flex-grow: 0;
   background-color:#F8F8F8;
   border: 1px;
   display: flex;
+  margin-left: 4rem;
  
   box-shadow: 1px 2px 2px;
 
   border-radius: 16px;
+}
+
+.img-email{
+  margin-left: 75rem;
+  margin-bottom:0;
 }
 
 #top{
@@ -518,6 +526,7 @@ flex-grow: 0;
   max-height: 90%;
   width: 336px;
 height: 32px;
+margin-bottom: 4rem;
 
 /* Sub Judul M/SemiBold */
 
@@ -573,7 +582,7 @@ margin-top: 2rem;
 }
 
 .layer5{
-margin-right: 20rem;
+margin-right: 9rem;
 max-width: 100%;
 max-height: 100%;
 height: 340px;
@@ -733,7 +742,7 @@ flex-grow: 0;
 }
 
 .iconss{
- margin-top: 16rem;
+ margin-top: 8rem;
  text-decoration: none;
 }
 
@@ -798,7 +807,7 @@ flex-grow: 0;
   max-height: 100%;
 
   width: 600px;
-height: 1083px;
+height: 1100px;
 }
 
 .promo-img{
@@ -889,4 +898,128 @@ flex-grow: 0;
   background-color: white;
   max-width: 100%;
   max-height: 100%;
+  
+}
+
+.news-img{
+justify-content: center;
+border-radius: 20px;
+
+
+max-width: 100%;
+max-height: 100%;
+
+width: 1040px;
+height: 500px;
+
+margin-top: 1rem;
+
+
+}
+
+.gamers{
+  width: 1040px;
+height: 38px;
+
+/* Sub Judul XL/SemiBold */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height, or 127% */
+
+letter-spacing: -0.021em;
+
+/* Neutral/90 */
+
+color: #393939;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.gamers{
+  margin-left: 19rem;
+  justify-content: center;
+
+  width: 1040px;
+height: 38px;
+
+/* Sub Judul XL/SemiBold */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height, or 127% */
+
+letter-spacing: -0.021em;
+
+/* Neutral/90 */
+
+color: #393939;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.calendar{
+  max-width: 100%;
+  height: 100%;
+  
+  margin-left: 26rem;
+
+}
+
+.tanggal{
+  width: 135px;
+height: 26px;
+
+/* Text XL/Regular */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+letter-spacing: -0.014em;
+margin-left: 30rem;
+padding-bottom: 1rem;
+
+/* Neutral/ 70 */
+
+color: #696969;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.last{
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 26rem;
+  margin-right: 25rem;
+}
+
+.bg-primary{
+  background-color: white;
 }
